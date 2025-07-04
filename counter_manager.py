@@ -7,7 +7,7 @@ from typing import Dict, Any
 logger = logging.getLogger(__name__)
 
 class CounterManager:
-    def __init__(self, counter_file: str = "/Users/Charlabeast/Desktop/charlabeast.github.io/counter.json"):
+    def __init__(self, counter_file: str = "/home/pi/Desktop/charlabeast.github.io/counter.json"):
         self.counter_file = counter_file
         self.lock = Lock()
         #self._ensure_data_directory()

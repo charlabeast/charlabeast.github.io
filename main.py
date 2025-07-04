@@ -20,7 +20,7 @@ counter_manager = CounterManager()
 daily_service = DailyBurgerService()
 
 # Open existing repository
-repo = Repo('/Users/Charlabeast/Desktop/charlabeast.github.io')
+repo = Repo('/home/pi/Desktop/charlabeast.github.io')
 
 #current_count = counter_manager.get_counter()
 
