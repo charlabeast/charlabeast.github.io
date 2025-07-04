@@ -2,7 +2,6 @@ import os
 import logging
 import time
 import threading
-import requests
 import json
 from github import Github
 from git import Repo
